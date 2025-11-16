@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator in JS with HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="heading2 primary"><span id="AppName">APP_NAME</span> <span id="AppVersion">APP_VERSION</span></p>
+    <p class="heading4">Calculator based on Shunting-Yard Algorithm</p>
+    <p class="caption">Instruction: You can insert numerical, operators (i.e., +, -, *, /, ^), and bracket</p>
+    <input class="input" placeholder="Insert expression here..." id="input-calculator" type="text">
+    <input class="button" style="margin-left: 8px;" id="result-calculator" type="button" value="=">
+    <p class="heading3">= <span id="display-calculator">0</span></p>
+</body>
+<script type="module" src="modules/calculator.js"></script>
+<script type="module" src="page-calculator.js"></script>
+<script type="module" src="script.js"></script>
+</html>
