@@ -1,4 +1,4 @@
-# Calculator_in_Javascript_based_on_Shunting_Yard_Algorithm
+# Calculator Shunting-Yard-based in Javascript
 
 ![](https://img.shields.io/badge/Nov%202025-%23005BA1?style=flat&label=Last%20Update&labelColor=%230078d4)
 
